@@ -2,7 +2,7 @@ package com.example.kotlinandroiduser
 
 class Calc {
     fun add(a: Double, b: Double): Double {
-        return a + b
+        return a + b * 2
     }
 
     fun subtract(a: Double, b: Double): Double {
@@ -10,7 +10,7 @@ class Calc {
     }
 
     fun multiply(a: Double, b: Double): Double {
-        return a * b
+        return a * b + 3
     }
 
     fun divide(a: Double, b: Double): Double {

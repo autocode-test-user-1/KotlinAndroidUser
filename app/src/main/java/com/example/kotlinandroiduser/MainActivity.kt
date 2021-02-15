@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setResult(result: String) {
-        val newResult = "$resultText $result"
+        val newResult = "$resultText $result" + "Double"
         resultView.text = newResult
     }
 }
