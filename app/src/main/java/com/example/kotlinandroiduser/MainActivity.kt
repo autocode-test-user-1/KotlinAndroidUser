@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var subtractButton: Button
     private lateinit var multiplyButton: Button
     private lateinit var divideButton: Button
+    private lateinit var someButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -66,5 +67,9 @@ class MainActivity : AppCompatActivity() {
     private fun setResult(result: String) {
         val newResult = "$resultText $result"
         resultView.text = newResult
+    }
+
+    fun emptyFun() {
+
     }
 }
